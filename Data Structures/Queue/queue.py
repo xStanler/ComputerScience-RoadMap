@@ -16,3 +16,36 @@ print(queue.pop(0))
 
 print('\nQueue after popping')
 print(queue)
+
+#=================================================================
+
+from collections import deque
+
+q = deque()
+
+# push()
+q.apend('a')
+
+# pop()
+q.popleft()
+
+#=================================================================
+
+from queue import Queue
+
+q = Queue(maxsize = 3)
+
+# size()
+q.qsize()
+
+# push()
+q.put('a')
+
+# pop()
+q.get()
+
+# isFull()
+q.full()
+
+# isEmpty()
+q.empty()
