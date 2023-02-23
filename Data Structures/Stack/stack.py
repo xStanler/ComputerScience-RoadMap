@@ -17,3 +17,37 @@ print(stack.pop())
 
 print('\nStack after popping')
 print(stack)
+
+
+#===============================================================
+
+from collections import deque
+
+stack = deque()
+
+# push()
+stack.append('a')
+
+# pop()
+print(stack.pop())
+
+#===============================================================
+
+from queue import LifoQueue
+
+stack = LifoQueue(maxsize=3)
+
+# push()
+stack.put('a')
+
+# pop()
+stack.get()
+
+# size()
+stack.qsize()
+
+# isFull()
+stack.full()
+
+# isEmpty()
+stack.empty()
