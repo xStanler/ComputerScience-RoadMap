@@ -69,7 +69,7 @@ function bfs(start) {
 
 }
 
-// bfs('PHX')
+bfs('PHX')
 
 // DFS Depth First Search
 
@@ -95,4 +95,4 @@ function dfs(start, visited = new Set())
 	}
 }
 
-dfs('PHX');
+// dfs('PHX');
