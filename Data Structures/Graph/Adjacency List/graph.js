@@ -49,7 +49,7 @@ function bfs(start) {
 
         const destinations = adjacencyList.get(airport);
 
-
+	// visited.add(airport)
         for (const destination of destinations) {
 
             if (destination === 'BKK')  {
